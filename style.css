@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Sail", system-ui;
+}
+.navbar-nama:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.profile p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .col{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.col h1{
+    font-size: 80px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+span{
+    color:orange;
+    height: 80px;
+    font-family: "Agbalumo", system-ui;
+}
+
+.col p{
+    color:#555;
+    line-height: 22px;
+}
+
+/* Sliding animation for the shape */
+@keyframes slideShape {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Sliding animation for the photo */
+@keyframes slidePhoto {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shape {
+    animation: slideShape 5s ease-in-out infinite;
+}
+
+.myfoto {
+    animation: slidePhoto 5s ease-in-out infinite;
+}
+
+.list-group-item{
+    overflow: hidden;
+
+}
+.ms-2{
+    color: black;
+}
+.text-success{
+    font-family: sans-serif;
+}
+
+.footer {
+    background-color: #343a40; 
+    color: white; 
+    padding: 40px 0; 
+}
+.footer a {
+    color: #ffffff;
+}
+.footer a:hover {
+    color: #adb5bd;
+}
+.custom-card {
+    background:linear-gradient(135deg, rgba(255, 0, 150, 0.7), rgba(0, 204, 255, 0.7));
+    border: none;
+}
+
+.custom-card .card-text {
+    color: white !important;
+}
+h2{
+    color: white;
+    font-family: "Agbalumo", system-ui;
+}
+h6{
+    font-family:'Segoe UI', sans-serif;
+}
+
+  .achievement-card {
+    background-image:  url('img/wllpper.jpeg'); 
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card-img-top {
+    border-radius: 10px;
+  }
+
+  .hobby-card{
+    background-image: url('img/vector.jpeg');
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
